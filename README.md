@@ -7,7 +7,7 @@
  | . ` ||  __|| |  | | . ` |  \___ \|  ___/|  __  |  __| |  _  /|  __|  
  | |\  || |___| |__| | |\  |  ____) | |    | |  | | |____| | \ \| |____ 
  |_| \_||______\____/|_| \_| |_____/|_|    |_|  |_|______|_|  \_\______|
-                             [ 3 D   R U N N E R ]
+                             
 ```
 
 > **A high-speed 3D retro arcade wireframe runner built with Three.js, React 19, and Tailwind CSS.**  
