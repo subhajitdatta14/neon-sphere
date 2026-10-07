@@ -1,0 +1,6 @@
+{
+  "name": "NEON SPHERE 3D",
+  "description": "A high-speed 3D retro arcade wireframe runner inspired by futuristic cyber aesthetics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

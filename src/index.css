@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@layer utilities {
+  .font-arcade {
+    font-family: 'Press Start 2P', monospace;
+  }
+  .font-cyber {
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  .font-orbitron {
+    font-family: 'Orbitron', 'Chakra Petch', sans-serif;
+  }
+  .font-retro-num {
+    font-family: 'VT323', monospace;
+  }
+
+  /* Controlled Cyberpunk Synthwave Neon Glows */
+  .neon-glow-cyan {
+    text-shadow: 0 0 4px #00E5FF, 0 0 10px rgba(0, 229, 255, 0.7);
+  }
+  .neon-glow-magenta {
+    text-shadow: 0 0 4px #FF2BD6, 0 0 12px rgba(255, 43, 214, 0.75);
+  }
+  .neon-glow-violet {
+    text-shadow: 0 0 4px #6C2BFF, 0 0 10px rgba(108, 43, 255, 0.7);
+  }
+  .neon-glow-yellow {
+    text-shadow: 0 0 4px #FFE600, 0 0 12px rgba(255, 230, 0, 0.8);
+  }
+  .neon-glow-white-magenta {
+    text-shadow: 0 0 6px #FFFFFF, 0 0 16px rgba(255, 43, 214, 0.85);
+  }
+
+  /* Sharp vector border glow */
+  .border-glow-cyan {
+    box-shadow: 0 0 8px rgba(0, 229, 255, 0.5), inset 0 0 6px rgba(0, 229, 255, 0.2);
+  }
+  .border-glow-magenta {
+    box-shadow: 0 0 8px rgba(255, 43, 214, 0.5), inset 0 0 6px rgba(255, 43, 214, 0.2);
+  }
+  .border-glow-violet {
+    box-shadow: 0 0 8px rgba(108, 43, 255, 0.5), inset 0 0 6px rgba(108, 43, 255, 0.2);
+  }
+}
+
+/* Subtle CRT scanline overlay */
+.scanlines {
+  background: linear-gradient(
+    rgba(5, 2, 13, 0) 50%, 
+    rgba(5, 2, 13, 0.35) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
